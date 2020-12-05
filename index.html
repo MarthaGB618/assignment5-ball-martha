@@ -27,12 +27,47 @@
 
       <div class="telephone">
         <label for="telephone" class="label_input_wrap">Telephone:</label>
-          <input type="tel" name="telephone" id="telephone" placeholder="555-555-5555"
+          <input type="tel" name="telephone" id="telephone" placeholder="555-555-5555" />
       </div>
 
       <div class="comments">
         <label for="comments" class="label_input_wrap">Comments:</label>
-        <textarea name="comments" id="Comments" cols="55" rows="15 "placeholder="Your Comment Goes Here"></textarea>
+        <textarea name="comments" id="Comments" cols="35" rows="15 "placeholder="Your Comment Goes Here"></textarea>
+      </div>
+
+      <div class="checkbox">
+        <h3>Favorite Yarns</h3>
+        <input type="checkbox" name="yarns" value="wool" id="wool"/>
+        <label for="wool">Wool</label>
+        <input type="checkbox" name="yarns" value="cotton" id="cotton"/>
+        <label for="cotton">Cotton</label>
+        <input type="checkbox" name="yarns" value="bamboo" id="bamboo"/>
+        <label for="bamboo">Bamboo</label>
+        <input type="checkbox" name="yarns" value="silkblend" id="silkblend"/>
+        <label for="silkblend">Silk Blend</label>
+      </div>
+
+      <div class=radiobutton">
+        <h3>Favorite Yarn Weight</h3>
+        <input type="radio" name="weights" value="sport" id="sport"/>
+        <label for="sport">Sport</label>
+        <input type="radio" name="weights" value="worsted" id="worsted"/>
+        <label for="worsted">Worsted</label>
+        <input type="radio" name="weights" value="heavy" id="heavy"/>
+        <label for="heavy">Heavy</label>
+      </div>
+
+      <div class="dropdown">
+        <label for="brand" class="label_input_wrap">What is Your Preferred Brand?</label>
+        <select name="brand" id="brand">
+          <option value="lb">Lion Brand</option>
+          <option value="caron">Caron</option>
+          <option value="premier">Premier</option>
+          <option value="rh">Red Heart</option>
+        </select>
+
+      </div>
+
 
     </form>
   </body>
