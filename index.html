@@ -2,34 +2,38 @@
 <html lang="en">
   <head>
     <title>Assignment 5 Form</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
     <meta charset="utf-8"/>
   </head>
 
   <body>
-    <form name="firstform" method="post" action="">
-      <div class="first-name">
+    <div class="container">
+      <h1>We Want to Know You</h1>
+      <p>Please fill out the form below so we can better serve you.</p>
+      <form class="contact-form" name="firstform" method="post" action="">
+      <div class="first-name input-section">
         <label for="firstname" class="label_input_wrap">First Name:
         </label>
         <input type="text" name="firstname" id="firstname" />
       </div>
 
-      <div class="last-name">
+      <div class="last-name input-section">
         <label for="lastname" class="label_input_wrap">Last Name:
         </label>
         <input type="text" name="lastname" id="lastname" />
       </div>
 
-      <div class="email">
+      <div class="email input-section">
         <label for="email" class="label_input_wrap">Email:</label>
         <input type="email" name="email" id="email" placeholder="bjones@example.com" />
       </div>
 
-      <div class="telephone">
+      <div class="telephone input-section">
         <label for="telephone" class="label_input_wrap">Telephone:</label>
           <input type="tel" name="telephone" id="telephone" placeholder="555-555-5555" />
       </div>
 
-      <div class="checkbox">
+      <div class="checkbox input-section">
         <h3>Favorite Yarns</h3>
         <input type="checkbox" name="yarns" value="wool" id="wool"/>
         <label for="wool">Wool</label>
@@ -41,7 +45,7 @@
         <label for="silkblend">Silk Blend</label>
       </div>
 
-      <div class="radiobutton">
+      <div class="radiobutton input-section">
         <h3>Favorite Yarn Weight</h3>
         <input type="radio" name="weights" value="sport" id="sport"/>
         <label for="sport">Sport</label>
@@ -51,7 +55,7 @@
         <label for="heavy">Heavy</label>
       </div>
 
-      <div class="dropdown">
+      <div class="dropdown input-section">
         <label for="brand" class="label_input_wrap">What is Your Preferred Brand?</label>
         <select name="brand" id="brand">
           <option value="lb">Lion Brand</option>
@@ -60,8 +64,8 @@
           <option value="rh">Red Heart</option>
         </select>
       </div>
-      
-      <div class="comments">
+
+      <div class="comments input-section">
         <label for="comments" class="label_input_wrap">Tell Us Your Crochet Goals:</label>
         <textarea name="comments" id="comments" cols="35" rows="5" placeholder="Your Comment Goes Here"></textarea>
       </div>
@@ -70,5 +74,6 @@
         <input type="submit" />
       </div>
     </form>
+  </div>
   </body>
 </html>
