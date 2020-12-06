@@ -3,18 +3,17 @@
   <head>
     <title>Assignment 5 Form</title>
     <meta charset="utf-8"/>
-
   </head>
 
   <body>
     <form name="firstform" method="post" action="">
-      <div class=first-name">
+      <div class="first-name">
         <label for="firstname" class="label_input_wrap">First Name:
         </label>
         <input type="text" name="firstname" id="firstname" />
       </div>
 
-      <div class=last-name">
+      <div class="last-name">
         <label for="lastname" class="label_input_wrap">Last Name:
         </label>
         <input type="text" name="lastname" id="lastname" />
@@ -30,11 +29,6 @@
           <input type="tel" name="telephone" id="telephone" placeholder="555-555-5555" />
       </div>
 
-      <div class="comments">
-        <label for="comments" class="label_input_wrap">Comments:</label>
-        <textarea name="comments" id="Comments" cols="35" rows="15 "placeholder="Your Comment Goes Here"></textarea>
-      </div>
-
       <div class="checkbox">
         <h3>Favorite Yarns</h3>
         <input type="checkbox" name="yarns" value="wool" id="wool"/>
@@ -47,7 +41,7 @@
         <label for="silkblend">Silk Blend</label>
       </div>
 
-      <div class=radiobutton">
+      <div class="radiobutton">
         <h3>Favorite Yarn Weight</h3>
         <input type="radio" name="weights" value="sport" id="sport"/>
         <label for="sport">Sport</label>
@@ -65,11 +59,16 @@
           <option value="premier">Premier</option>
           <option value="rh">Red Heart</option>
         </select>
-
+      </div>
+      
+      <div class="comments">
+        <label for="comments" class="label_input_wrap">Tell Us Your Crochet Goals:</label>
+        <textarea name="comments" id="comments" cols="35" rows="5" placeholder="Your Comment Goes Here"></textarea>
       </div>
 
-
+      <div class="submit">
+        <input type="submit" />
+      </div>
     </form>
   </body>
-
 </html>
