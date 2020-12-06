@@ -4,10 +4,30 @@
   border: 0;
   font-family: sans-serif;
 }
+
+body{
+  background: lightblue;
+}
+
 .container {
   max-width: 900px;
   text-align: center;
-  margin: 0px auto;
+  margin: 40px auto 60px;
+}
+
+header {
+  text-align: center;
+  background: gray;
+  padding: 20px;
+}
+nav ul li {
+  display: inline;
+}
+nav a {
+  color: white;
+  background: blue;
+  padding: 5px;
+
 }
 .contact-form {
   background: lightgreen;
@@ -54,6 +74,10 @@ select {
 label {
   font-weight: bold;
 }
-body{
-  background: lightblue;
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 20px;
 }

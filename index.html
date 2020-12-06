@@ -2,16 +2,29 @@
 <html lang="en">
   <head>
     <title>Assignment 5 Form</title>
-    <link href="css/styles.css" type="text/css" rel="stylesheet" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
     <meta charset="utf-8"/>
   </head>
 
   <body>
+    <header>
+      <nav>
+      <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="crafts.html">Crafts</a></li>
+        <li><a href="blog.html">Blog</a></l1>
+      </ul>
+    </nav>
+    </header>
+
+  <main>
     <div class="container">
       <h1>We Want to Know You</h1>
       <p>Please fill out the form below so we can better serve you.</p>
-      <form class="contact-form" name="firstform" method="post" action="">
+      <form class="contact-form" id=test form" name="test_form" method="post" action="form.php" onsubmit="return validateForm(this)">
       <div class="first-name input-section">
+
         <label for="firstname" class="label_input_wrap">First Name:
         </label>
         <input type="text" name="firstname" id="firstname" />
@@ -75,5 +88,9 @@
       </div>
     </form>
   </div>
+</main>
+<footer>
+  <p>Martha Ball did this</p>
+</footer>
   </body>
 </html>
